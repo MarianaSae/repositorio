@@ -1,0 +1,434 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+   
+}
+
+#main {
+    width: 1500px;
+    height: 1050px;
+    margin: 0 auto;
+    background-image: url(Bitacora\ 2.png);
+}
+
+header {
+    width: 1500px;
+    height: 700px;
+    background-image: url(imagenesB3/headerMo.png);
+    text-align: center;
+    padding-top: 60px;
+    color: #FFFFFF;
+    font-size: 40px;
+    /*background-repeat: no-repeat;*/
+    text-align: center;
+    font-size: 215px;
+    text-shadow: #000000 10px 5px 15px;
+
+
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+
+/* Estilos para el menú desplegable */
+nav {
+    position: relative;
+}
+
+.temas-dropdown {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.temas-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.temas-dropdown:hover .temas-dropdown-content {
+    display: block;
+}
+
+.temas-dropdown-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.temas-dropdown-content a {
+    color: black;
+    padding: 2px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.temas-dropdown-content a:hover {
+    background-color: #45348d;
+    color: #FFFFFF;
+}
+
+/* Ajuste de posición del menú desplegable */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    color: black;
+}
+
+
+nav {
+    width: 1500px;
+    height: 60px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0px;
+
+    padding-right: 50px;
+    text-align: right;
+    border-bottom: #000 4px solid;
+    z-index: 1000;
+
+}
+
+nav a {
+    color: #000;
+    font-size: 25px;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 5px 10px;
+    /*transition: .5s;*/
+    /*border-radius: 10px;*/
+    text-align: center;
+
+}
+
+
+
+
+/*nav a :hover {
+   /* border-bottom: #000 3px solid;*/
+/*border-right:  #019CD9 5px solid;*/
+/*border-bottom: #019CD9 5px solid;
+}
+    */
+
+
+
+
+section {
+    width: 1500px;
+    height: auto;
+    color: #000;
+    background-color: #FFFFFF;
+    padding-top: 5px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 55px;
+    border-bottom: #45348d 8px solid;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    border-left: #45348d 5px solid;
+    padding-left: 10px;
+}
+
+fieldset {
+    border-radius: 20px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.home {
+    color: #019CD9;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 5px 20px;
+    transition: .5s;
+    /*border-radius: 10px;*/
+}
+
+.home {
+    color: #019CD9;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 5px 20px;
+    transition: .5s;
+    /*border-radius: 10px;*/
+}
+
+.textosi {
+    width: 1365px;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 33px;
+    padding-top: 30px;
+
+}
+
+.textosin {
+    width: 1365px;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 33px;
+    
+}
+
+.foto1 {
+    /*width: 460px;*/
+    /*height: auto;*/
+    float: left;
+
+    text-align: center;
+    margin-top: 50px;
+    
+    margin-left: 80px;
+}
+
+.fotright {
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 999;
+}
+
+.fotleft {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+#imgblur {
+    filter: blur(5px);
+    position: relative;
+    transition: .5s;
+}
+
+#imgbrillo {
+    filter: brightness(.5);
+    transition: .5s;
+}
+
+#imgbrillo:hover {
+    filter: brightness(2);
+}
+
+
+#imgcont {
+    filter: contrast(1);
+    transition: .5s;
+}
+
+#imgcont:hover {
+    filter: contrast(300%);
+}
+
+
+#imgsom {
+    filter: drop-shadow(20px 20px 5px rgba(255, 234, 0, 0.5));
+}
+
+
+#imggri {
+    filter: grayscale(100%);
+}
+
+
+#imghue {
+    filter: hue-rotate(100deg);
+}
+
+#imginv {
+    filter: invert(100%);
+}
+
+#imgop {
+    filter: opacity(0.5);
+}
+
+#imgsat {
+    filter: saturate(400%);
+}
+
+
+#imgvar {
+    filter: grayscale(50%) blur(5px) brightness(120%) contrast(150%) hue-rotate(45deg) invert(20%) opacity(80%) saturate(200%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.foto2 {
+    width: 460px;
+    height: 500px;
+    margin-left: 33px;
+    text-align: center;
+    background-color: #000;
+    margin-top: 40px;
+}
+
+.imgsola {
+    width: 1200px;
+    height: 500px
+}
+
+.tema {
+    width: 1425px;
+    height: auto;
+    /* background-color: rgb(86, 158, 158); */
+    float: left;
+    margin-left: 33px;
+
+}
+
+.tema a {
+    color: #F3BA00;
+    text-decoration-line: overline;
+    transition: 1.0s;
+    border-radius: 15px;
+}
+
+.tema a:hover {
+    background-color: #DB4359;
+}
+
+.texto {
+    width: 800px;
+    float: left;
+    margin-left: 33px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.imgsola {
+    background-color: #245AC9;
+    width: 1370px;
+    height: 500px
+}
+
+.objetivo {
+    background-color: #019CD9;
+    width: 204px;
+    height: 204px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 50px;
+    box-shadow: #000000 5px 5px 13px;
+}
+
+
+.nombre {
+    text-align: right;
+    padding-right: 45px;
+    font-size: 35px;
+}
+
+
+.logo2 {
+
+    text-align: center;
+
+}
+
+.foot {
+
+    width: 404px;
+    height: 300px;
+    float: right;
+    margin-right: 62px;
+    margin-top: 30px;
+
+}
+
+.elements {
+    float: left;
+    margin-left: 55px;
+    margin-top: -30px;
+
+}
+
+.elements2 {
+
+    margin-left: 55px;
+    margin-top: -30px;
+}
+
+.elements4 {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -38px;
+}
+
+.elements3 {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.footercopy {
+    text-align: center;
+}
+
+.Logo {
+    text-align: left;
+    position: absolute;
+    padding-left: 20px;
+    top: 5px;
+}
+
+#cuadroinfoyo {
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    background-color: #DB4359;
+    border-radius: 30px;
+}
+
+footer {
+
+    width: 1500px;
+    height: 270px;
+    background-color: #fff;
+    padding: 20px;
+    border-top: #245AC9 5px solid;
+    font-size: 25px;
+}

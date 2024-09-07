@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alatsi&family=Amaranth&family=Archivo&family=Asap:wght@500&family=Baloo+Bhai+2&family=Baloo+Thambi+2:wght@400;500&family=Balsamiq+Sans&family=Barlow+Condensed:wght@500&family=Caveat+Brush&family=Chau+Philomene+One&family=Comic+Neue&family=Delius+Unicase&family=Dosis:wght@400;700&family=Edu+SA+Beginner&family=Fira+Sans&family=Gabarito&family=Gloria+Hallelujah&family=Heebo:wght@500&family=Josefin+Sans&family=Kanit&family=League+Spartan:wght@400;700&family=Lexend+Deca&family=Libre+Franklin:wght@500;600&family=Nanum+Brush+Script&family=Questrial&family=Righteous&family=Rubik&family=Schoolbell&display=swap"
+        rel="stylesheet">
+
+    <title>Bitacora 1</title>
+</head>
+
+<body>
+    <section id="main">
+        <div id="principal">
+            <nav>
+                <div class="Logo">
+                    <img class="logo" src="imagenesB3/MARIANA-removebg-preview.png" width="200px">
+                </div>
+                <!--<a href="Index.html"><b>VOLVER</b></a>!-->
+                <div class="temas-dropdown">
+
+                    <b><a href="#"><span class="temas">TEMAS</span></a></b>
+                    <ul class="temas-dropdown-content">
+                        <li><a href="#java">JavaScript</a></li>
+                        <li><a href="#DOM">DOM</a></li>
+                        <li><a href="#ifelse">If else</a></li>
+                        <li><a href="#style">Propiedad Style</a></li>
+                        <li><a href="#classlist">ClassList</a></li>
+                        <li><a href="#eventos">Eventos</a></li>
+                        <li><a href="#viewport">Etiqueta Viewport</a></li>
+                        <li><a href="#medias">Media Queries</a></li>
+                    </ul>
+                </div>
+                <b><a href="#main"><span class="home"><img class="pic-size" src="imagenesB3/home-removebg-preview.png"
+                                width="30px"></span></a></b>
+            </nav>
+            <header>
+                <div id="iniCio"></div>
+                <p class="1"><b>BITACORA 1</b></p>
+            </header>
+
+        </div>
+
+        <section>
+            <div id="html" class="tema">
+                <div class="textosi">
+                    <div id="java"></div>
+                    <h2>JavaScript</h2>
+                    <P class="text-justify">
+                        JavaScript es un lenguaje de programación interpretado, de alto nivel y orientado a objetos.
+                        Es uno de los tres pilares fundamentales del desarrollo web, junto con HTML y CSS. Mientras
+                        que HTML estructura el contenido y CSS lo estiliza, JavaScript agrega interactividad y
+                        dinamismo a las páginas web.
+                        <br><br>
+                        JavaScript fue creado por <strong>Brendan Eich</strong> mientras trabajaba en Netscape
+                        Communications
+                        Corporation. Inicialmente, el lenguaje fue desarrollado en solo 10 días bajo el nombre de
+                        Mocha, pero más tarde se cambió a LiveScript. Finalmente, fue rebautizado como JavaScript
+                        poco antes de su lanzamiento en el navegador Netscape Navigator 2.0 en diciembre de 1995.
+                        Aunque su nombre sugiere una relación con Java, JavaScript es un lenguaje completamente
+                        diferente. La decisión de usar el nombre JavaScript fue en parte una estrategia de marketing
+                        para capitalizar la popularidad de Java en ese momento.
+                    </P>
+                </div>
+            </div>
+            <div id="html" class="tema">
+                <div class="texto">
+                    <h3>Como se puede agregar a HTML? </h3>
+                    <h4>Etiqueta &lt;script&gt; dentro del archivo HTML.</h4>
+                    <p class="text-justify">
+
+                        Puedes escribir código JavaScript dentro de las etiquetas &lt;script&gt; en tu archivo
+                        HTML.<br>
+                        Es facil de agregar y de manejar en el archivo HTML.
+                        <br><br>
+                    <ul>
+                        <li>Coloca el código JavaScript dentro de una etiqueta &lt;script&gt;.</li><br>
+                        <li>Inserta la etiqueta &lt;script&gt; en el &lt;head&gt; o en el body, dependiendo de
+                            cuando quieres ejecutar el script.
+                        </li><br>
+                        <li> Ahora solo necesitas guardar el archivo y agregar el codigo al script.
+                        </li><br>
+                    </ul>
+                    </p>
+                </div>
+                <div class="foto1"><img class="pic-size" src="imgb1/JS.gif" alt="Web Semántica"></div>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="texto">
+                    <h4>Etiqueta &lt;script&gt; en archivo separado.</h4>
+                    <p class="text-justify"> Es recomendable colocar el código JavaScript en un archivo separado con
+                        extensión .js y enlazarlo en tu documento HTML usando la etiqueta
+                        &lt;script&gt; con el atributo src.
+                        <br>
+                    <ul>
+                        <li>Crea un archivo nuevo y guárdalo con la extensión <strong>.js</strong>. Por ejemplo:
+                            <strong>script.js</strong>.
+                        </li><br>
+                        <li>Dentro del archivo <strong>script.js</strong>, escribe el código JavaScript que deseas
+                            utilizar. </li><br>
+                        <li> Si ya tienes un archivo HTML, ábrelo. Si no, crea uno nuevo. </li><br>
+                        <li>Dentro del archivo HTML, coloca la etiqueta <strong>&lt;script&gt;</strong> con el
+                            atributo src apuntando al archivo JavaScript. Esta etiqueta puede ir dentro del
+                            <strong>&lt;head&gt;</strong> o en el <strong>&lt;body&gt;</strong>.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="foto1"><img class="pic-size" src="imgb1/JSseparado.gif" alt="Web Semántica"></div>
+            </div>
+
+            <div id="html" class="tema"></div>
+            <div class="foto1"><img class="pic-size" src="imgb1/Variables.png" alt="Web Semántica"></div>
+            <div class="texto">
+                <p class="text-justify">
+                <h3>Variables</h3>
+
+                Las variables en JavaScript son contenedores que almacenan datos. Permiten a los programadores
+                guardar, modificar y manipular valores durante la ejecución de un programa. Existen tres formas
+                principales de declarar variables en JavaScript, utilizando las palabras clave
+                <strong>var</strong>, <strong>let</strong> y <strong>const</strong>.
+                Cada una tiene características y reglas de uso que afectan su alcance, mutabilidad y comportamiento.
+
+                </p>
+                <ul>
+                    <li><strong>var: </strong>es una forma de declarar variables en JavaScript que tiene alcance de
+                        función, lo que significa que una variable declarada con var es accesible en toda la función
+                        en la que se encuentra, o globalmente si está fuera de cualquier función.
+                    </li>
+                    <li><strong>let: </strong>es una forma de declarar variables en JavaScript con alcance de
+                        bloque,
+                        lo que significa que solo es accesible dentro del bloque de código {} donde se declara, como
+                        en una función, un bucle o una estructura condicional. </li>
+                    <li> <strong>const: </strong>es una forma de declarar variables en JavaScript que, al igual que
+                        let, tiene un alcance de bloque, es decir, solo es accesible dentro del bloque {} donde se
+                        declara. La principal característica de const es que no permite la reasignación: una vez que
+                        se asigna un valor a una variable declarada con const, no puede cambiar. </li>
+                </ul>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="texto">
+                    <h3>Operadores Aritmeticos</h3>
+                    <h4>Etiqueta &lt;script&gt; dentro del archivo HTML.</h4>
+                    <p class="text-justify">
+                        Los operadores aritméticos permiten realizar cálculos matemáticos: <br>
+
+                    <ul>
+                        <li>Suma (+): Añade dos operandos.</li><br>
+                        <li>Resta (-): Resta el segundo operando del primero. </li><br>
+                        <li>Multiplicación (*): Multiplica dos operandos. </li><br>
+                        <li>División (/): Divide el primer operando por el segundo.</li><br>
+                        <li>Módulo (%): Devuelve el resto de dividir el primer operando por el segundo.</li><br>
+                        <li>Exponenciación (**): Eleva el primer operando a la potencia del segundo.</li><br>
+                    </ul>
+                    </p>
+                </div>
+                <div class="foto1"><img class="pic-size" src="imgb1/Om.png" alt="Web Semántica"></div>
+            </div>
+
+            <div id="html" class="tema"></div>
+            <div class="foto1"><img class="pic-size" src="imgb1/Funcion.png" alt="Web Semántica"></div>
+            <div class="texto">
+                <p class="text-justify">
+                <h3>Funciones</h3>
+
+                Las funciones en JavaScript son bloques de código reutilizable que realizan una tarea específica o
+                calculan un valor. Se pueden declarar con la palabra clave function o mediante funciones de flecha
+                (=> en ES6) y se ejecutan cuando se invocan (llaman).
+                <br><br>
+                Las funciones pueden recibir parámetros como
+                entrada y devolver un valor como resultado con la palabra clave return. Existen dos tipos
+                principales: funciones declaradas, que pueden ser invocadas en cualquier parte del código debido al
+                "hoisting", y funciones expresadas, que se asignan a una variable y solo pueden ser llamadas después
+                de su definición. Las funciones permiten modular el código, haciéndolo más legible y reutilizable.
+
+                </p>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="texto">
+                    <h3>Datos Principales</h3>
+                    <p class="text-justify">
+                        Los tipos de datos principales son fundamentales para el manejo y manipulación de
+                        información en JavaScript. <br>
+                    <ul>
+                        <li>String: Representa una secuencia de caracteres, como palabras o frases. Se define entre
+                            comillas simples ('), dobles ("). Ejemplo:
+                            "Hola Mundo", 'JavaScript'.</li><br>
+                        <li>Number: Representa tanto números enteros como decimales. JavaScript no distingue entre
+                            tipos como enteros y flotantes, todo se maneja como number. Ejemplo: 42, 3.14.</li><br>
+                        <li>Booleano: Solo tiene dos posibles valores: true o false. Se utiliza para representar
+                            condiciones lógicas, comparaciones y en estructuras de control como if. Ejemplo: true,
+                            false. </li><br>
+
+                    </ul>
+                    </p>
+                </div>
+                <div class="foto1"><img class="pic-size" src="imgb1/Datos.png" alt="Web Semántica"></div>
+            </div>
+
+
+            <div id="html" class="tema"></div>
+            <div class="foto1"><img class="pic-size" src="imgb1/eventos.gif" alt="Web Semántica"></div>
+            <div class="texto">
+                <p class="text-justify">
+                <h3>Eventos</h3>
+
+                Los eventos en JavaScript son acciones o sucesos que ocurren en la página web y que pueden ser
+                detectados y respondidos por el lenguaje. Los eventos permiten a los desarrolladores crear
+                interactividad al reaccionar a cosas como clics del usuario, presionar teclas, cargar la página,
+                enviar formularios, y más. Cada evento está asociado con un elemento del DOM (Document Object
+                Model), y se pueden manejar mediante event listeners (escuchadores de eventos) que ejecutan
+                funciones específicas cuando ocurre el evento.
+
+                </p>
+                <ul>
+                    <li><strong>click: </strong>Ocurre cuando el usuario hace clic en un elemento.</li>
+                    <li><strong>keydown:</strong>Se activa cuando una tecla es presionada. </li>
+                    <li> <strong>submit: </strong>Se dispara cuando un formulario es enviado.</li>
+                    <li><strong>mouseover:</strong>Ocurre cuando el cursor pasa por encima de un elemento.</li>
+                    <li><strong>load: </strong>Se activa cuando una página o recurso ha terminado de cargarse.</li>
+                </ul>
+            </div>
+
+
+            <div id="css3" class="tema">
+                <div class="textosi">
+                    <div id="DOM"></div>
+                    <h2>DOM</h2>
+                    <P>
+                        El <strong>DOM</strong> es una interfaz de programación para los documentos HTML y XML.
+                        Representa la
+                        estructura de la página web como un árbol de nodos, donde cada nodo es un elemento
+                        (etiqueta), atributo o contenido textual. Esto permite a los lenguajes de programación, como
+                        JavaScript, interactuar con el documento, modificar su estructura, estilo o contenido.
+                        <br><br>
+                        El <strong>HTML DOM </strong> es una representación jerárquica del contenido de un documento
+                        HTML. Cada parte
+                        del HTML, como etiquetas, atributos y contenido de texto, es representada como un objeto en
+                        el árbol del DOM. Esto permite que JavaScript acceda y manipule esos objetos fácilmente.
+                </div>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="texto">
+                    <h3>¿Para qué sirve el DOM?</h3>
+                    <h4>Etiqueta &lt;script&gt; dentro del archivo HTML.</h4>
+                    <p class="text-justify">
+                        El DOM sirve para manipular dinámicamente el contenido de una página web.<br>
+                        A través de JavaScript, los desarrolladores pueden:
+
+                    <ul>
+                        <li>Modificar la estructura de la página (agregar, eliminar o modificar elementos).</li>
+                        <li>Cambiar estilos CSS dinámicamente.</li>
+                        <li>Manejar eventos (como clics, desplazamientos o entradas de teclado).</li>
+                        <li>Acceder a los atributos de los elementos HTML y modificar su valor.</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="foto1"><img class="pic-size" src="imgb1/dom.png" alt="Web Semántica"></div>
+            </div>
+
+
+            <div id="css3" class="tema">
+                <div class="textosi">
+                    <div id="filter"></div>
+                    <h3>Conversión en Tokens (Tokenization)</h3>
+                    <p>La conversión a tokens en el DOM (Document Object Model) es un proceso fundamental en la
+                        manipulación de contenido dinámico en las aplicaciones web modernas. En términos simples,
+                        los "tokens" son las unidades mínimas de información que un sistema de análisis sintáctico
+                        utiliza para interpretar y manipular el contenido del documento HTML. Al trabajar con el
+                        DOM, cada nodo (como elementos, atributos o texto) puede ser considerado un token que el
+                        navegador convierte y estructura en un árbol de objetos que representa la jerarquía del
+                        documento. <br><br>
+                        Esta conversión permite que los desarrolladores interactúen con estos objetos a
+                        través de JavaScript, modificando el contenido y estructura del documento de forma dinámica
+                        y eficiente.
+
+                </div>
+            </div>
+
+            <div id="css3" class="tema">
+                <div class="textosi">
+                    <div id="filter"></div>
+                    <h3>Lexicalización</h3>
+                    <p>La lexicalización en el contexto del DOM y el procesamiento de contenido web se refiere al
+                        proceso mediante el cual el texto sin formato es descompuesto en unidades semánticamente
+                        significativas llamadas "tokens". Este es un paso clave en la interpretación del código
+                        fuente HTML, CSS o JavaScript antes de que el navegador pueda construir el árbol DOM y
+                        renderizar la página. La lexicalización se lleva a cabo por un analizador léxico o "lexer",
+                        que escanea el flujo de caracteres y los agrupa en tokens. Estos tokens pueden representar
+                        elementos HTML, atributos, operadores, palabras clave, nombres de variables, entre otros.
+                    </p>
+
+                </div>
+            </div>
+
+            <div id="css3" class="tema">
+                <div class="textosi">
+                    <div id="filter"></div>
+                    <h3>Construcción (Tree Construction)</h3>
+                    <p> La construcción del árbol o tree construction en el contexto del DOM es el proceso mediante
+                        el cual el navegador toma el contenido de un documento HTML y lo convierte en una estructura
+                        jerárquica llamada árbol DOM (Document Object Model). Este proceso sigue a la lexicalización
+                        y el análisis sintáctico, en los que se convierten los caracteres y el texto del documento
+                        en tokens, y luego se interpretan estos tokens para generar la estructura que describe cómo
+                        están organizados los elementos del documento.<br><br>
+                        La construcción del árbol o tree construction en el contexto del DOM es el proceso mediante
+                        el cual el navegador toma el contenido de un documento HTML y lo convierte en una estructura
+                        jerárquica llamada árbol DOM (Document Object Model). Este proceso sigue a la lexicalización
+                        y el análisis sintáctico, en los que se convierten los caracteres y el texto del documento
+                        en tokens, y luego se interpretan estos tokens para generar la estructura que describe cómo
+                        están organizados los elementos del documento.
+                    </p>
+
+                </div>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="texto">
+                    <h3>getElementById()</h3>
+                    <p>
+                        El método getElementById() es una de las herramientas más utilizadas en la manipulación del
+                        DOM, ya que permite seleccionar un elemento específico del árbol DOM mediante su atributo
+                        id. Este método es particularmente eficiente porque el identificador id debe ser único en
+                        todo el documento, lo que garantiza que siempre se seleccionará un único elemento.<br><br>
+                        Al
+                        invocar <strong>document.getElementById('idDelElemento')</strong>, el navegador busca
+                        rápidamente en el árbol
+                        DOM hasta encontrar el elemento que tiene el valor de id especificado. Una vez que se
+                        obtiene el elemento, este se puede manipular de diversas maneras, como modificar su
+                        contenido, agregar o eliminar clases, cambiar atributos o incluso aplicarle estilos
+                        directamente.
+                    </p>
+                </div>
+                <div class="foto1"><img class="pic-size" src="imgb1/GetEbId.png" alt="Web Semántica"></div>
+            </div>
+
+
+            <div id="html" class="tema">
+                <div class="foto1"><img class="pic-size" src="imgb1/ClassName.png" alt="Web Semántica"></div>
+                <div class="texto">
+                    <p class="text-justify">
+                    <h3>getElementsByClassName()</h3>
+
+                    El método getElementsByClassName() es una poderosa herramienta para seleccionar múltiples
+                    elementos
+                    del DOM que comparten la misma clase. A diferencia de getElementById(), que solo devuelve un
+                    único
+                    elemento, este método retorna una colección de todos los elementos que tienen una o más clases
+                    específicas.<Br><br> Al invocar
+                    <strong>document.getElementsByClassName('nombreDeLaClase')</strong>,
+                    el navegador escanea el
+                    árbol DOM en busca de todos los elementos cuyo atributo class contenga el valor proporcionado.
+                    Esta
+                    colección de elementos devuelta no es un arreglo estándar, sino una HTMLCollection, que es una
+                    lista
+                    en vivo. Esto significa que cualquier cambio en el DOM afectará automáticamente a esta
+                    colección.
+
+                    </p>
+                </div>
+            </div>
+
+
+            <div id="html" class="tema">
+                <div class="texto">
+                    <h3>getElementsByTagName()</h3>
+                    <p>
+                        El método getElementsByTagName() es una herramienta fundamental para seleccionar todos
+                        los elementos de un documento HTML que tienen un determinado nombre de etiqueta. Este
+                        método devuelve una colección de nodos que coincide con el nombre de la etiqueta
+                        proporcionada, permitiendo manipular todos los elementos de un tipo específico en el
+                        DOM. <br><br>Por ejemplo, al invocar<strong>
+                            document.getElementsByTagName('div')</strong>, el
+                        navegador recopila
+                        todos los elementos
+                        &lt;div&gt; presentes en el documento y los devuelve en una HTMLCollection. Esta
+                        colección es en
+                        vivo, lo que significa que cualquier modificación que se haga en el DOM (como añadir o
+                        eliminar elementos de ese tipo) se verá reflejada automáticamente en la colección.
+                    </p>
+                </div>
+                <div class="foto1"><img class="pic-size" src="imgb1/TagName.png" alt="Web Semántica"></div>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="foto1"><img class="pic-size" src="imgb1/query.png" alt="Web Semántica">
+                </div>
+                <div class="texto">
+                    <p class="text-justify">
+                    <h3>querySelector()</h3>
+                    El método querySelector() es una herramienta poderosa y versátil en el API del DOM que
+                    permite seleccionar el primer elemento que coincide con un selector CSS específico dentro
+                    del documento. Al invocar document.querySelector('selector'), se puede utilizar cualquier
+                    selector válido de CSS para localizar un elemento, lo que incluye selectores de clases,
+                    identificadores, atributos, combinaciones de estos y pseudo-clases.<br><br> Por ejemplo,
+                    document.querySelector('#miId') seleccionará el primer elemento con el id miId, mientras que
+                    document.querySelector('.miClase') seleccionará el primer elemento con la clase miClase.
+
+                    </p>
+                </div>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="texto">
+                    <h3>querySelectorAll()</h3>
+                    <p>
+                        El método querySelectorAll() es una herramienta altamente flexible y potente en el
+                        API del DOM que permite seleccionar todos los elementos en un documento que
+                        coinciden con un selector CSS específico. Al invocar
+                        document.querySelectorAll('selector'), se puede utilizar cualquier selector CSS
+                        válido para seleccionar múltiples elementos al mismo tiempo, lo que incluye
+                        selectores de clase, identificadores, atributos, combinaciones de estos y
+                        pseudo-clases.<br><br> Por ejemplo, document.querySelectorAll('.miClase')
+                        seleccionará todos
+                        los elementos con la clase miClase, y document.querySelectorAll('div > p.intro')
+                        seleccionará todos los párrafos con la clase intro que son hijos directos de un div.
+                    </p>
+                </div>
+                <div class="foto1"><img class="pic-size" src="imgb1/queryAll.png" alt="Web Semántica"></div>
+            </div>
+
+
+            <div id="html" class="tema">
+                <div class="foto1"><img class="pic-size" src="imgb1/Value.png" alt="Web Semántica">
+                </div>
+                <div class="texto">
+                    <p class="text-justify">
+                    <h3>Atributo Value</h3>
+
+                    El atributo value es un atributo fundamental en HTML que se utiliza para definir el
+                    valor de varios tipos de elementos de formulario, como &lt;input&gt;, &lt;select&gt; y
+                    &lt;textarea&gt;. Este atributo es crucial para capturar y enviar datos de los
+                    formularios al servidor, así como para interactuar con los usuarios en aplicaciones web.
+                    <br><br>
+                    Para los elementos &lt;input&gt;, el atributo value especifica el valor que se envía con
+                    el
+                    formulario cuando el usuario lo envía. Por ejemplo, en un campo de texto, el atributo
+                    value puede ser utilizado para establecer el texto que aparece por defecto en el campo.
+                    Si un campo &lt;input&gt; tiene el atributo value configurado como valor, el campo de
+                    texto se
+                    mostrará con valor como su contenido predeterminado:
+                    <br><br>
+                    En los elementos &lt;select&gt;, el atributo value define el valor que se enviará al
+                    servidor
+                    cuando se seleccione una opción. Cada opción dentro del &lt;select&gt; puede tener un
+                    valor asociado que es enviado cuando el formulario se envía.
+                    <br><br>
+                    Para los elementos &lt;textarea&gt;, el atributo value define el contenido de texto que se
+                    muestra dentro del área de texto. Este valor puede ser establecido al crear el elemento, y
+                    también puede ser modificado con JavaScript
+                    </p>
+                </div>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="texto">
+                    <div id="ifelse"></div>
+                    <h2>If else</h2>
+                    <p>
+                        El if-else es una estructura fundamental en la programación que permite la ejecución condicional
+                        de bloques de código basado en el resultado de una expresión booleana. En términos sencillos, el
+                        if-else se utiliza para tomar decisiones dentro del flujo de ejecución de un programa.<br><br>
+                        La
+                        estructura básica de un bloque if-else comienza con una declaración if, seguida de una condición
+                        entre paréntesis. Esta condición es una expresión que se evalúa como verdadera (true) o falsa
+                        (false). Si la condición evaluada es verdadera, se ejecuta el bloque de código que sigue a la
+                        declaración if. Por otro lado, si la condición es falsa, se omite este bloque de código y se
+                        puede ejecutar un bloque alternativo de código que sigue a la declaración else.
+                    </p>
+                </div>
+                <div class="foto1"><img class="pic-size" src="imgb1/Ifelse.png" alt="Web Semántica"></div>
+            </div>
+
+
+            <div id="html" class="tema">
+                <div class="textosi">
+                    <div id="style"></div>
+                    <h2>Propiedad Style</h2>
+                    <P class="text-justify">
+                        JLa propiedad style en el DOM de JavaScript proporciona una forma directa de manipular los
+                        estilos CSS de un elemento HTML desde el código. Esta propiedad es parte de la interfaz
+                        HTMLElement y permite acceder y modificar los estilos en línea de un elemento de manera
+                        programática. Al interactuar con la propiedad style, puedes ajustar varias características de
+                        presentación del elemento, como color, tamaño, márgenes, fuentes y mucho más.
+                        <br><br>
+                    <h3>Uso Básico</h3>
+                    La propiedad style se accede a través de un objeto que representa los estilos en línea del
+                    elemento. Puedes asignar valores a propiedades CSS específicas usando la notación de punto o la
+                    notación de corchetes. La notación de punto se utiliza para establecer propiedades individuales,
+                    mientras que la notación de corchetes es útil cuando el nombre de la propiedad incluye
+                    caracteres especiales o espacios. La propiedad style permite modificar cualquier propiedad CSS que
+                    se
+                    pueda aplicar en línea. Algunos ejemplos:
+                    </P>
+                    <ul>
+                        <li>color: Cambia el color del texto.</li>
+                        <li>backgroundColor: Establece el color de fondo del elemento.</li>
+                        <li>fontSize: Ajusta el tamaño de la fuente.</li>
+                        <li>margin: Define los márgenes alrededor del elemento.</li>
+                        <li>padding: Establece el espacio interior entre el borde del elemento y su contenido.</li>
+                        <li>border: Configura el estilo, ancho y color del borde.</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="textosi">
+                    <div id="classlist"></div>
+                    <h2>ClassList</h2>
+                    <P class="text-justify">
+                        La propiedad classList en JavaScript proporciona métodos para manipular las clases de un
+                        elemento HTML de manera eficiente. Estos métodos incluyen:
+                    </P>
+                    <ul></ul>
+                    <li>add(className): Añade una o más clases al elemento. Si la clase ya está presente, no se agrega
+                        de nuevo.</li><br>
+                    <li>remove(className): Elimina una o más clases del elemento. Si la clase no está presente, no se
+                        realiza ninguna acción.</li><br>
+                    <li>toggle(className, [force]): Alterna la presencia de una clase en el elemento. Si la clase está
+                        presente, se elimina; si no está presente, se agrega. El segundo argumento opcional force
+                        permite forzar la adición (true) o la eliminación (false) de la clase.</li><br>
+                    <li>contains(className): Verifica si el elemento tiene una clase específica. Devuelve true si la
+                        clase está presente y false si no lo está.</li><br>
+                    <li>replace(oldClass, newClass): Reemplaza una clase existente por una nueva clase. Si oldClass no
+                        está presente, no se realiza ninguna acción.</li><br>
+                    <li>item(index): Devuelve la clase en la posición especificada por el índice dado. El índice es cero
+                        basado, por lo que el primer elemento tiene un índice de 0.</li><br>
+                    <li>forEach(callback): Ejecuta una función proporcionada una vez por cada clase en el classList, en
+                        el orden en que aparecen en la lista. La función de callback recibe cada nombre de clase como
+                        argumento.</li><br>
+                    <li>entries(): Devuelve un objeto Array Iterator que contiene pares clave-valor de la forma [index,
+                        className], permitiendo iterar sobre las clases y sus índices en el classList.</li><br>
+
+                    </ul>
+                    <p>Estos métodos proporcionan una interfaz robusta y fácil de usar para gestionar las clases CSS de
+                        los elementos en el DOM, facilitando la manipulación dinámica de estilos y la interacción con el
+                        contenido web.</p>
+                </div>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="textosi">
+                    <div id="eventos"></div>
+                    <h2>Eventos</h2>
+                    <P class="text-justify">
+                        En la programación web, los eventos son acciones o sucesos que ocurren en el navegador, como un
+                        clic del usuario, el envío de un formulario o la carga de una página. Los eventos son una parte
+                        crucial de la interacción con los usuarios y permiten que las aplicaciones web respondan a
+                        diferentes acciones del usuario o cambios en el estado de la aplicación.
+                    </P>
+                    <ul>
+                        <li>Eventos del mouse: click, dblclick, mouseover, mouseout</li>
+                        <li>Eventos del teclado: keydown, keyup, keypress</li>
+                        <li>Eventos de formulario: submit, change, focus, blur</li>
+                        <li>Eventos de carga: load, DOMContentLoaded</li>
+                        <li>Eventos de red: error, abort</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div id="html" class="tema">
+                <div class="textosi">
+                    <div id="viewport"></div>
+                    <h2>Etiqueta Viewport</h2>
+                    <P class="text-justify">
+                        La etiqueta
+                        <strong>&lt;meta name="viewport"&gt;</strong> es un elemento crucial en el desarrollo web moderno, especialmente
+                        cuando
+                        se trata de garantizar que las aplicaciones y sitios web sean accesibles y funcionales en una
+                        amplia gama de dispositivos, desde teléfonos móviles hasta pantallas de escritorio. Esta
+                        etiqueta se coloca en el
+
+                        &lt;head&gt;del documento HTML y juega un papel fundamental en el diseño adaptable y en la
+                        optimización de la experiencia del usuario en dispositivos móviles.<br><br>
+                        La principal función de la etiqueta
+                        <strong>&lt;meta name="viewport"&gt;</strong> es controlar el tamaño y la escala del área de visualización de una
+                        página web. El área de visualización, o viewport, es la región visible del documento que el
+                        navegador muestra al usuario. Sin una configuración adecuada de la etiqueta viewport, los sitios
+                        web pueden no mostrarse correctamente en dispositivos móviles, con problemas como texto
+                        demasiado pequeño para leer o elementos que se desbordan de la pantalla.<br><br>
+                        La etiqueta
+                        <strong>&lt;meta name="viewport"&gt;</strong>es esencial para el diseño adaptativo (responsive design), una
+                        técnica
+                        que permite a las páginas web adaptarse a diferentes tamaños de pantalla y resoluciones. Sin una
+                        configuración adecuada de viewport, los sitios web pueden no ofrecer una experiencia óptima en
+                        dispositivos móviles, lo que puede resultar en un aumento en la tasa de rebote y una disminución
+                        en la satisfacción del usuario.
+                        <br><br>
+                        Al implementar correctamente la etiqueta viewport, los desarrolladores aseguran que sus sitios
+                        web se visualicen de manera efectiva en cualquier dispositivo, proporcionando una experiencia de
+                        usuario consistente y accesible. Esto es especialmente importante en la era de los dispositivos
+                        móviles, donde un gran porcentaje de usuarios accede a la web desde teléfonos y tabletas.
+                    </P>
+                </div>
+            </div>
+
+
+            <div id="html" class="tema">
+                <div class="textosi">
+                    <div id="medias"></div>
+                    <h2>Media Queries</h2>
+                    <P class="text-justify">
+                        Las media queries son una característica fundamental en CSS para crear diseños adaptativos y
+                        responsivos que se ajustan a diferentes tamaños de pantalla, resoluciones y características del
+                        dispositivo. Introducidas en CSS2 y ampliadas en CSS3, las media queries permiten a los
+                        desarrolladores aplicar estilos específicos basados en las condiciones del entorno en el que se
+                        visualiza una página web, como el ancho de la pantalla, la orientación y la resolución del
+                        dispositivo.
+                        <br><br>
+                        La sintaxis básica de una media query incluye la palabra clave @media, seguida de una o más
+                        condiciones entre paréntesis y un bloque de estilos CSS que se aplicará si las condiciones se
+                        cumplen.
+                        <br><br>
+                        Las media queries son esenciales para el diseño web adaptativo, que busca proporcionar una
+                        experiencia de usuario óptima en una variedad de dispositivos. Permiten a los desarrolladores
+                        diseñar interfaces que se ajusten de manera flexible y dinámica a las características del
+                        dispositivo en uso, mejorando la accesibilidad y la usabilidad. Al usar media queries, se puede
+                        garantizar que el contenido sea legible y funcional en cualquier tamaño de pantalla, desde
+                        dispositivos móviles hasta grandes pantallas de escritorio.
+                    </P>
+                </div>
+            </div>
+
+
+        </section>
+
+        <div class="prefooter">
+
+        </div>
+        <footer>
+
+            <div>
+                <div id="html" class="">
+                    <div class="foot"><!--Esta es la imagen del logo-->
+                        <div class="elements4">
+                            <!--<a href="">!--><img src="imagenesB3/MARIANA-removebg-preview.png"
+                                height="100px"></a><!--Este es la imagen objetivos-->
+                        </div>
+                    </div>
+                    <div class="foot"><!--Estas son las redes-->
+                        <div class="elements2">
+
+                            <div class="elements3">
+                                <img src="imagenesB3/6.png" height="60px"><!--Este es la imagen objetivos-->
+                            </div>
+
+                            <div class="elements3" height="60px">
+                                <img src="imagenesB3/3.png" height="60px"><!--Este es la imagen objetivos-->
+                            </div>
+
+                            <div class="elements3">
+                                <img src="imagenesB3/5.png" height="60px"><!--Este es la imagen objetivos-->
+                            </div>
+
+                            <div class="elements3">
+                                <a href="https://www.youtube.com/channel/UCIwFjwMjI0y7PDBVEO9-bkQ"><img
+                                        src="imagenesB3/4.png" height="60px"></a><!--Este es la imagen objetivos-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="foot"><!--esta es la location, telefono y home-->
+                <div class="elements">
+
+                    <div class="elements3">
+                        <!--<a href="">!--><img src="imagenesB3/1.png" height="60px">
+                        </a><!--Este es la imagen objetivos-->
+                    </div>
+
+                    <div class="elements3">
+                        <!--<a href="">!--><img src="imagenesB3/2.png"
+                            height="60px"></a><!--Este es la imagen objetivos-->
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+            <div class="footercopy"><!--este es el copyright-->
+                <b>Copyright 2024</b>
+            </div>
+            <br>
+        </footer>
+
+
+        </div>
+</body>
+
+</html>
